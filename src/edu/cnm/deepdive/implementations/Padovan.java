@@ -57,6 +57,15 @@ public class Padovan implements Iterable<BigInteger> {
 
   }
   
+  // recursive implementation of Padovan Sequence
+//public static int getPadovan(int p)
+//{
+//    if (p == 0 || p == 1 || p == 2)
+//        return 1;
+//    return (getPadovan(p - 2) + getPadovan(p - 3));
+//}
+////
+  
     
 //  public static void main(String[] args) {
 //   
@@ -107,7 +116,8 @@ public class Padovan implements Iterable<BigInteger> {
 //        index++;
 //        return current;
 //      }
-//
+  
+
 //    };
 //  }
 
